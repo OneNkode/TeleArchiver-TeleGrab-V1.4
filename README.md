@@ -2,6 +2,12 @@
 
 A Python script that allows users to download all media files, including PDFs, images, and videos, from a specific Telegram group or channel using the Telethon library. This script utilizes a GUI for ease of use, created with Tkinter. It is designed for both beginner and advanced users who need to efficiently extract media from Telegram.
 
+Download: <a href="https://github.com/OneNkode/TeleArchiver-/releases/download/V1.0/TelearhiverV1.0.exe" download>
+  <button>Letöltés</button>
+</a>
+
+
+
 ## Features 🚀
 
 - **Download PDFs, Images, Videos** 📄🖼️🎥: Automatically downloads all supported file types from a group or channel.
