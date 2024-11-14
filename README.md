@@ -6,6 +6,10 @@ Download: <a href="https://github.com/OneNkode/TeleArchiver-/releases/download/V
   <button>Letöltés</button>
 </a>
 
+utmutató-HU: 
+<a href="https://github.com/OneNkode/TeleArchiver-/wiki/Wiki%E2%80%90-HU#felhaszn%C3%A1l%C3%B3i-%C3%BAtmutat%C3%B3" target="_blank">
+  <button>Magyar nyelvű útmutató</button>
+</a>
 
 
 ## Features 🚀
