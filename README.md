@@ -1,4 +1,4 @@
-# Telegram Media Downloader - EXE Version
+# Telegram Media Downloader
 
 ## Leírás
 A **Telegram Media Downloader** egy egyszerű alkalmazás, amely lehetővé teszi a különböző típusú médiafájlok letöltését a Telegram csatornákról. Az alkalmazás támogatja a PDF-eket, képeket (JPEG, PNG), videókat (MP4), valamint az összes típusú fájl letöltését is.
@@ -11,23 +11,7 @@ Ez a projekt tartalmaz egy EXE verziót is, amely lehetővé teszi a program fut
 - Támogatott fájltípusok: PDF, képek, videók és összes fájl típus.
 - Naplózás a letöltési folyamat részleteiről.
 
-## Telepítési Útmutató
 
-### Szükséges előfeltételek
-- A Python telepítése (amennyiben a forráskódot szeretnéd futtatni).
-- A **PyInstaller** csomag telepítése:
-  ```sh
-  pip install pyinstaller
-  ```
-
-### EXE Fájl Létrehozása
-1. Nyisd meg a terminált abban a könyvtárban, ahol a `v2.py` található.
-2. Futtasd az alábbi parancsot a futtatható fájl létrehozásához:
-   ```sh
-   pyinstaller --onefile --windowed v2.py
-   ```
-   - `--onefile`: Egyetlen EXE fájlba csomagolja az alkalmazást.
-   - `--windowed`: Nem jelenít meg konzolablakot az alkalmazás futtatása közben.
 3. A kész EXE fájl a `dist` mappában lesz megtalálható.
 
 ### Hogyan Futtasd Az EXE Fájlt
