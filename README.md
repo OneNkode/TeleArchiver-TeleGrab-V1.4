@@ -1,40 +1,41 @@
 # Telegram Media Downloader
 
-## Leírás
-A **Telegram Media Downloader** egy egyszerű alkalmazás, amely lehetővé teszi a különböző típusú médiafájlok letöltését a Telegram csatornákról. Az alkalmazás támogatja a PDF-eket, képeket (JPEG, PNG), videókat (MP4), valamint az összes típusú fájl letöltését is.
+## Description
+Telegram Media Downloader is a simple application that allows you to download various types of media files from Telegram channels. The application supports downloading PDFs, images (JPEG, PNG), videos (MP4), as well as any other file types.
 
-Ez a projekt tartalmaz egy EXE verziót is, amely lehetővé teszi a program futtatását Python telepítése nélkül.
+This project also includes an EXE version so you can run the program without having Python installed.
 
-## Jellemzők
-- Egyszerű grafikus felhasználói felület (GUI) a Telegram média letöltéséhez.
-- Konfigurációs beállítások mentése, ahol megadható az API ID, API Hash és a cél csatorna.
-- Támogatott fájltípusok: PDF, képek, videók és összes fájl típus.
-- Naplózás a letöltési folyamat részleteiről.
+## Features
+- **Simple Graphical User Interface (GUI):** Easily download media from your Telegram channels.
+- **Configuration Settings:** Save your API credentials and target channel details.
+- **Supported File Types:** Choose to download PDFs, images, videos, or all file types.
+- **Logging:** View detailed logs of the download process.
+- **Standalone EXE:** The compiled EXE file can be found in the `dist` folder.
 
+## How to Run the EXE
+1. Open the `dist` folder, where the generated `.exe` file is located.
+2. Double-click the executable to launch the application.
 
-3. A kész EXE fájl a `dist` mappában lesz megtalálható.
+## Usage Guide
+1. Launch the application.
+2. Navigate to the **Settings** menu and enter the required details:
+   - **API ID** and **API Hash:** Obtain these from the [Telegram Developer Portal](https://my.telegram.org).
+   - **Target Channel:** The name or link of the Telegram channel you want to download from.
+3. Select the desired file type (PDF, images, videos, or all files).
+4. Click the **Save** button to store your configuration.
+5. Return to the **Download** tab and wait for the application to connect to the Telegram channel and download the selected files.
 
-### Hogyan Futtasd Az EXE Fájlt
-1. Nyisd meg a `dist` mappát, ahol a létrehozott `.exe` fájl található.
-2. Dupla kattintással indítsd el az alkalmazást.
+## Important Notes
+- **Telegram API Credentials:** You must provide a valid Telegram API ID and API Hash. You can get these from the [Telegram Developer Portal](https://my.telegram.org).
+- **Troubleshooting:** If an error occurs during the download process, check your channel details and API credentials.
 
-## Használati Útmutató
-1. Indítsd el az alkalmazást.
-2. Menj a **Beállítások** menübe, és add meg a szükséges API ID-t, API Hash-t, valamint a letölteni kívánt Telegram csatorna nevét vagy linkjét.
-3. Válaszd ki a kívánt fájl típust (PDF, képek, videók, összes fájl).
-4. Kattints a **Mentés** gombra a beállítások rögzítéséhez.
-5. Menj vissza a **Letöltés** fülre, majd várd meg, míg a program csatlakozik a Telegram csatornához és letölti a kiválasztott fájlokat.
+## For Developers
+If you wish to modify the source code:
+- Clone the repository from GitHub.
+- Make sure all required Python packages are installed (check the `requirements.txt` file if provided).
 
-## Fontos Megjegyzések
-- Az alkalmazás futtatásához meg kell adnod egy Telegram API ID-t és API Hash-t, amelyet a [Telegram Developer Portal](https://my.telegram.org/auth) oldalon szerezhetsz be.
-- Ha a letöltési folyamat során hiba lép fel, ellenőrizd a csatorna nevét/linkjét, valamint az API adatokat.
+## Contributing
+Contributions are welcome! Please open a pull request or submit your ideas and issues via the GitHub Issues section.
 
-## Fejlesztőknek
-Ha szeretnéd módosítani a forráskódot, akkor klónozd a projektet a GitHub-ról, és győződj meg róla, hogy minden szükséges Python csomag telepítve van.
-
-## Hozzájárulás
-Ha szeretnél hozzájárulni a projekthez, kérjük, nyiss egy pull requestet, vagy jelezd az ötleteidet az **Issues** részlegben.
-
-## Licenc
-Ez a projekt MIT Licenc alatt érhető el.
-
+## License
+This project is available under the [MIT License](LICENSE).
