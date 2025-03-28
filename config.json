@@ -1,11 +1,51 @@
 {
-  "api_id": "Fill-here",
-  "api_hash": "Fill-here",
-  "target_channel": "Fill-here",
-  "file_type": "pdf",
-  "github_owner": "OneNkode",
-  "github_repo": "TeleArchiver"
+  "api_id": "",
+  "api_hash": "",
+  "target_channel": "",
+  "lang": "hu",
+  "output_dir": "media_letoltes",
+  "download_limit": 100,
+  "start_date": "",
+  "file_types": {
+    "photo": true,
+    "video": true,
+    "document": true,
+    "audio": true,
+    "text": true
+  },
+  "size_filter": {
+    "min": 0,
+    "max": 0
+  },
+  "date_filter": {
+    "start": "",
+    "end": ""
+  },
+  "download_settings": {
+    "parallel_downloads": 3,
+    "retry_count": 3,
+    "auto_retry": true,
+    "save_preview": true
+  },
+  "ui_settings": {
+    "theme": "light",
+    "font_size": 10,
+    "show_preview": true,
+    "show_stats": true,
+    "auto_save": true,
+    "auto_save_interval": 300
+  },
+  "proxy_settings": {
+    "enabled": false,
+    "type": "socks5",
+    "host": "",
+    "port": 0,
+    "username": "",
+    "password": ""
+  },
+  "update_settings": {
+    "check_on_start": true,
+    "auto_update": false,
+    "update_channel": "https://t.me/your_update_channel"
+  }
 }
-
-
- # --- V1.4 changelog ---

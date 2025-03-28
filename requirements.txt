@@ -1,0 +1,8 @@
+telethon==1.32.1
+requests==2.31.0
+python-dateutil==2.8.2
+Pillow==10.2.0
+python-socks==2.4.4
+aiohttp==3.9.3
+cryptography==42.0.2
+pytz==2024.1 
