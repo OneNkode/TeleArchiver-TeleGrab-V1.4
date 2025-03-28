@@ -107,5 +107,5 @@ Ez a projekt MIT licenc alatt van kiadva. Lásd a [LICENSE](LICENSE) fájlt a r�
 ## Kapcsolat
 
 - GitHub: [OneNKode](https://github.com/OneNKode)
-- Email: your.email@example.com
+- Email: info@napkert.hu
 - Telegram: [@Leventegt](https://t.me/+g-EKpEjQLRRmMzU0)
